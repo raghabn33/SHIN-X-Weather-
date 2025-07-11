@@ -2,7 +2,7 @@ from flask import Flask, request, render_template_string
 import requests
 
 app = Flask(__name__)
-API_KEY = "4973e3ac0a02b606d088b9fb35795e9d"  # Replace with your OpenWeatherMap API key
+API_KEY = "YOUR WEATHER API"  # Replace with your OpenWeatherMap API key
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
